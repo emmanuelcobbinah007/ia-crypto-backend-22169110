@@ -3,7 +3,7 @@ const corsMiddleware = (req, res, next) => {
   // Allow requests from localhost (development) and specific production domains
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://22169110-coinbase-clone.netlify.app',
+  '22169110-emmanuelcobbinah-crypto-app.netlify.app',
 ];
 
   const origin = req.headers.origin;
